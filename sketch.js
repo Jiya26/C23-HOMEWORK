@@ -44,11 +44,11 @@ function setup() {
 	Engine.run(engine);
 
     
-	left = Bodies.rectangle(300,550,20,100,{isStatic:true});
+	left = Bodies.rectangle(300,610,20,100,{isStatic:true});
 	World.add(world,left);
-	center = Bodies.rectangle(380,590,100,20,{isStatic:true});
+	center = Bodies.rectangle(380,650,100,20,{isStatic:true});
 	World.add(world,center);
-	right = Bodies.rectangle(450,550,20,100,{isStatic:true});
+	right = Bodies.rectangle(450,610,20,100,{isStatic:true});
 	World.add(world,right);
 
   
