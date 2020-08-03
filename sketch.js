@@ -46,7 +46,7 @@ function setup() {
     
 	left = Bodies.rectangle(300,610,20,100,{isStatic:true});
 	World.add(world,left);
-	center = Bodies.rectangle(380,650,100,20,{isStatic:true});
+	center = Bodies.rectangle(380,630,100,20,{isStatic:true});
 	World.add(world,center);
 	right = Bodies.rectangle(450,610,20,100,{isStatic:true});
 	World.add(world,right);
@@ -61,7 +61,7 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   rect(left.position.x,left.position.y,20,100)
-  rect(center.position.x,center.position.y,150,20)
+  rect(center.position.x,center.position.y+20,150,20)
   rect(right.position.x,right.position.y,20,100)
 
   drawSprites();
